@@ -47,9 +47,20 @@ data/processed/*
 results/*
 !results/.gitkeep
 
+# Reports/Figures (generated files)
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.pdf
+
 # Logs
 logs/
 *.log
+
+# Temporary check/debug scripts
+check_*.py
+*_check.py
+*_test.py
+*_debug.py
 
 # OS
 .DS_Store
