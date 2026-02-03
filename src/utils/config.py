@@ -31,7 +31,7 @@ class BacktestConfig:
     
     # Date range
     start_date: str = "2018-01-01"
-    end_date: str = "2023-12-31"
+    end_date: str = "2026-02-03"  # Extended to today (8 years total)
     
     # Rebalancing
     rebalance_frequency: str = "monthly"  # "monthly" or "quarterly"
